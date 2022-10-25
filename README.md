@@ -15,7 +15,7 @@ def hexadecimal_a_palabras(origen, destino) :
         destino (str): Ruta hacia el fichero de destino.
     """  
 ```
-3. Una vez realizado el paso anterior, aplique la función al fichero `hexadecimal.txt` y guarde el resultado en el fichero `dataset.csv`. A partir de aquí, trabajaremos con el fichero `dataset.csv`.
+3. Una vez realizado el paso anterior, aplique la función al fichero `codificado.txt` y guarde el resultado en el fichero `dataset.csv` (ambos en la carpeta `data`). A partir de aquí, trabajaremos con el fichero `dataset.csv`.
 4. Cree la namedtuple: 
 ```
 Vivienda=namedtuple('Vivienda', 'fecha_construccion precio superficie habitaciones baños localidad vendido')
