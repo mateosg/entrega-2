@@ -15,7 +15,7 @@ def hexadecimal_a_palabras(origen, destino) :
         destino (str): Ruta hacia el fichero de destino.
     """  
 ```
-3. Una vez realizado el paso anterior, aplique la función al fichero `codificado.txt` y guarde el resultado en el fichero `dataset.csv` (ambos en la carpeta `data`). A partir de aquí, trabajaremos con el fichero `dataset.csv`.
+3. Una vez realizado el paso anterior, aplique la función al fichero `hexadecimal.txt` y guarde el resultado en el fichero `dataset.csv`. A partir de aquí, trabajaremos con el fichero `dataset.csv`.
 4. Cree la namedtuple: 
 ```
 Vivienda=namedtuple('Vivienda', 'fecha_construccion precio superficie habitaciones baños localidad vendido')
@@ -41,7 +41,8 @@ def lee_fichero(fichero):
 ```  
 def num_años_meses_dias(vivendas):
     """Devuelve el número de años, meses y días que han pasado desde la construcción 
-    de la vivienda más antigua hasta la construcción de la vivienda más reciente.
+    de la vivienda más antigua hasta la construcción de la vivienda más reciente. 
+    Considere que todos los meses tienen 30 días.
 
     Args:
         vivendas (list[Vivienda]): Lista de viviendas.
@@ -145,7 +146,7 @@ Vivienda(fecha_construccion=datetime.date(2019, 6, 19), precio=131637, superfici
 
 Probando vivienda_mas_parecida de la vivienda  Vivienda(fecha_construccion=datetime.date(2019, 2, 12), precio=380484, superficie=285, habitaciones=5, baños=2, localidad='Michaelshire', vendido=False)
 
-Vivienda(fecha_construccion=datetime.date(2019, 2, 17), precio=271187, superficie=247, habitaciones=1, baños=2, localidad='West Denisebury', vendido=False)
+Vivienda(fecha_construccion=datetime.date(2021, 10, 10), precio=380352, superficie=491, habitaciones=3, baños=1, localidad='Smithport', vendido=False)
 ```	
 
 
